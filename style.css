@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'bold';
+    src: url('Ubuntu/Ubuntu-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'light';
+    src: url('Ubuntu/Ubuntu-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('Ubuntu/Ubuntu-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(20, 20, 20);
+}
+ul{
+    padding-top: 3.5vh;
+    padding-left: 1vw;
+}
+
+li{
+    font-family: 'medium';
+    display: inline;
+    margin-top: 4vh;
+    margin: 10px;
+    color: #fff;
+    font-size: 1.6vh;
+    text-decoration: none;
+}
+li a{
+    transition: all 0.2s;
+    color: #fff;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(209, 209, 209);
+}
+
+.head{
+    z-index: 10;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(20, 20, 20);
+}
+
+.b1 .img{
+    position: absolute;
+    width: 32vw;
+    height: 24vw;
+}
+.procers{
+    position: absolute;
+    left: -5px;
+}
+.knog{
+    position: absolute;
+    top: 0;
+    right: 32vw;
+}
+.block{
+    width: 100vw;
+}
+.b1{
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+}
+.b2{
+    background-color: #fff;
+}
+.b1 .text{
+    color: #fff;
+}
+.b1 .name{
+    font-family: 'bold';
+    font-size: 6vw;
+    font-weight: bold;
+}
+.b1 .about{
+    font-family: 'light';
+    font-size: 2vw;
+    font-weight: lighter;
+}
+.b1 .lable{
+    padding-top: 20vw;
+    text-align: center;
+}
+
+.b2 .text{
+    color: #000;
+}
+.b2 .name{
+    font-family: 'bold';
+    font-size: 6vw;
+    font-weight: bold;
+}
+.b2 .about{
+    width: 40vw;
+    margin: 10px;
+    margin-top: 20px;
+    font-family: 'light';
+    font-size: 1.5vw;
+    font-weight: lighter;
+}
+.b2 .lable{
+    padding-top: 5vw;
+    text-align: center;
+}
+.b2 .lab{
+    padding-top: 30vh;
+    padding-bottom: 5vh;
+    font-family: 'medium';
+    font-size: 2vw;
+    font-weight:500;
+}
+
+.use_icon{
+    width: 6vw;
+    height: 6vw;
+}
+.use_icon img{
+    width: 6vw;
+    height: 6vw;
+    transition: all .3s;
+}
+.use_icon img:hover{
+    transform: translateY(-10px);
+}
+
+
+.usefulls{
+    display: flex;
+    justify-content: space-evenly;
+}
+.usemen{
+    margin-bottom: 10vh;
+}
+.use_icon{
+    margin: 0 auto;
+}
+.use_text{
+    padding-top: 2vh;
+    font-family: 'bold';
+    text-align: center;
+    width: 14vw;
+    margin: 0 auto;
+}
+.b3 .lable{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    font-size: 4vw;
+    color: #fff;
+    text-align: center;
+    font-family: 'bold';
+}
+.b3 .icon img{
+    margin: auto;
+    align-items: center;
+    height: 12vw;
+    width: 12vw;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.b3 .icon img:hover{
+    transform: scale(1.1);
+}
+
+.b3{
+    padding-bottom: 10vh;
+}
+
+.b3 .team{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.b3 .user{
+    width: 30vw;
+    margin: 10px 0;
+}
+.b3 .user .text{
+    text-align: center;
+    margin: 0 auto;
+    width: 20vw;
+    color: #fff;
+}
+.b3 .user .name{
+    font-family: 'bold';
+    font-size: 1.5vw;
+    margin: 10px;
+}
+.b3 .user .about{
+    font-family: 'light';
+    font-size: 0.8vw;
+}
+
+.b4{
+    background-color: #fff;
+    height: 100vh;
+    padding-top: 7vh;
+}
+
+
+.b4 .lable{
+    font-size: 5vw;
+    font-family: 'bold';
+    margin: 20px;
+}
+.b4 .about{
+    font-size: 2vw;
+    font-family: 'light';
+    margin: 20px;
+}
+.b4 .parters{
+    padding-top: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.b4 .logo img{
+    height: 30vw;
+}
+.b4 .name{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'light';
+    margin: 20px;
+}
+.b4 .part{
+    width: 30vw;
+}
+
+@media screen and (max-width: 600px) {
+    .b1 .lable{
+        padding-top: 57vw;
+        text-align: center;
+    }
+    .b1 .name{
+        font-size: 16vw;
+    }
+    .b1 .about{
+        font-size: 6vw;
+    }
+    .b1 .img{
+        position: absolute;
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .b2 .name {
+        font-size: 11vw;
+    }
+    .b2 .lable{
+        padding-top: 15vw;
+    }
+    .b2 .about{
+        width: 80vw;
+        font-size: 4vw;
+    }
+    .use_text{
+        width: auto;
+    }
+    .usefulls{
+        flex-wrap: wrap
+    }
+    .b2 .lab{
+        padding-top: 17vh;
+        font-family: 'bold';
+    font-size: 6vw;
+    }
+    .use_icon{
+        width: 12vw;
+        height: 12vw;
+    }
+    .use_icon img{
+        width: 12vw;
+        height: 12vw;
+    }
+    .b3 .lable{
+        font-size: 7vw;
+    }
+    .b3 .user{
+        width: 40vw;
+    }
+    .b3 .icon img{
+        height: 20vw;
+        width: 20vw;
+    }
+    
+    .b3 .user .name {
+        font-family: 'bold';
+        font-size: 4vw;
+        width: 20vw;
+        margin: 10px auto;
+    }
+    .b3 .user .text {
+        width: 30vw;
+        margin: 0 auto;
+    }
+    .b3 .user .about {
+        font-size: 3vw;
+    }
+    .b4 .lable {
+        font-size: 10vw;
+    }
+    .b4 .about{
+        font-size: 4vw;
+    }
+    .b4 .name {
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'light';
+        margin: 10px auto;
+    }
+}
