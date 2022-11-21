@@ -317,6 +317,10 @@ li a:hover{
     .b3 .user .about {
         font-size: 3vw;
     }
+    .b3 .user .sml {
+        font-size: 1.8vw;
+    }
+    
     .b4 .lable {
         font-size: 10vw;
     }
